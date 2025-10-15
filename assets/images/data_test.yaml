@@ -1,0 +1,13 @@
+train: D:/Media/Dataset/DETPPANCLEAR.v1-v1.yolov8/train/images
+val: D:/Media/Dataset/DETPPANCLEAR.v1-v1.yolov8/test/images
+test: D:/Media/Dataset/DETPPANCLEAR.v1-v1.yolov8/test/images
+
+nc: 1
+names: ['plate']
+
+roboflow:
+  workspace: ub-sotcz
+  project: detppanclear
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ub-sotcz/detppanclear/dataset/1
